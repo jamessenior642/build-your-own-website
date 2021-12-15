@@ -1,9 +1,9 @@
 body {
-  color: rgb(22, 107, 34);
+  color: rgb(0, 0, 0);
   display: block;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Verdana, Roboto, Helvetica, 
     Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-  background-color: #e6ec8f;
+  background-color: #ffffff;
 }
 
 #container {
