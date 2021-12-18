@@ -36,8 +36,10 @@ body {
 } */
 
 .tableofcontents {
-    line-height: 20px;
     text-align: center;
+    align-items: center;
+    display: block;
+    justify-content: center;
     font-family: 'Roboto Mono';
     margin-bottom: 50px;
     /* animation for page fade in */
@@ -53,6 +55,42 @@ body {
     100% {
         opacity: 1;
     }
+}
+
+
+/* link text behavior */
+
+a:link {
+    color: rgb(0, 0, 0);
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:visited {
+    color: rgb(0, 0, 0);
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgb(0, 0, 0);
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+a:active {
+    color: rgb(0, 0, 0);
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+.subheading {
+    font-size: 1.4em;
+    font-weight: 400;
+    /* animation for page fade in */
+    animation: fadeInAnimation ease 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
 }
 
 .photo {
@@ -84,9 +122,8 @@ body {
     }
 }
 
-.subheading {
-    font-size: 1.4em;
-    font-weight: 400;
+.photo {
+    border-radius: 2px;
     /* animation for page fade in */
     animation: fadeInAnimation ease 3s;
     animation-iteration-count: 1;
@@ -100,14 +137,6 @@ body {
     100% {
         opacity: 1;
     }
-}
-
-.photo {
-    border-radius: 2px;
-    /* animation for page fade in */
-    animation: fadeInAnimation ease 3s;
-    animation-iteration-count: 1;
-    animation-fill-mode: forwards;
 }
 
 .project-container {
