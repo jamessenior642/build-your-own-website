@@ -6,8 +6,8 @@ body {
     background-color: #ffffff;
 }
 
-@font-face { font-family: 'Roboto Mono'; src: url('RobotoMono-Regular.OTF'); } 
-@font-face { font-family: 'Adobe Caslon Pro'; src: url('ACaslonPro-Regular.OTF'); } 
+@font-face { font-family: 'Roboto Mono'; src: url('RobotoMono-Regular.TTF'); } 
+@font-face { font-family: 'Adobe Caslon Pro'; src: url('ACaslonPro-Regular.TTF'); } 
 
 #nametitle {
     max-width: 720px;
