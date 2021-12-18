@@ -1,18 +1,24 @@
 body {
-  color: rgb(0, 0, 0);
-  display: block;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Verdana, Roboto, Helvetica, 
-    Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", Roboto Mono, 'Times New Roman', Times, serif;
-  background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    display: block;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Verdana, Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", Roboto Mono, 'Times New Roman', Times, serif;
+    background-color: #ffffff;
+}
+
+#nametitle {
+    max-width: 720px;
+    margin: auto;
+    padding: 2em;
 }
 
 #container {
-  max-width: 720px;
-  margin: auto;
-  padding: 2em;
+    max-width: 720px;
+    margin: auto;
+    padding: 2em;
 }
 
-.two-column {
+
+/* .two-column {
   display: flex;
   justify-content: space-between;
   gap: 1em;
@@ -27,113 +33,232 @@ body {
     width: 100%;
     object-fit: cover;
   }
+} */
+
+.tableofcontents {
+    line-height: 20px;
+    text-align: center;
+    font-family: Roboto Mono;
+    margin-bottom: 50px;
+    /* animation for page fade in */
+    animation: fadeInAnimation ease 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
 }
 
-.links {
-  margin-top: 1em;
-  display: flex;
-  gap: 1em;
-}
-
-.subheading {
-  font-size: 1.4em;
-  font-weight: 400;
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
 }
 
 .photo {
-  border-radius: 2px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.links {
+    margin-top: 1em;
+    display: flex;
+    gap: 1em;
+    justify-content: center;
+    /* animation for page fade in */
+    animation: fadeInAnimation ease 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.subheading {
+    font-size: 1.4em;
+    font-weight: 400;
+    /* animation for page fade in */
+    animation: fadeInAnimation ease 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.photo {
+    border-radius: 2px;
+    /* animation for page fade in */
+    animation: fadeInAnimation ease 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
 }
 
 .project-container {
-  margin-bottom: 1.6em;
+    margin-bottom: 1.6em;
+    /* animation for page fade in */
+    animation: fadeInAnimation ease 2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
 }
 
 .project-title {
-  margin-bottom: 0;
-  font-family: Arial;
+    margin-bottom: 0;
+    font-family: Arial;
+    /* animation for page fade in */
+    animation: fadeInAnimation ease 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
 }
 
 .project-description {
-  margin: 0;
+    margin: 0;
+    /* animation for page fade in */
+    animation: fadeInAnimation ease 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
 }
 
 .project-tools {
-  margin-top: 2px;
-  font-weight: 350;
+    margin-top: 2px;
+    font-weight: 350;
+    /* animation for page fade in */
+    animation: fadeInAnimation ease 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
 }
 
 .project-date {
-  margin: 0;
-  margin-left: 4px;
-  font-weight: 400;
-  font-size: 16px;
+    margin: 0;
+    margin-left: 4px;
+    font-weight: 400;
+    font-size: 16px;
+    /* animation for page fade in */
+    animation: fadeInAnimation ease 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
 }
 
 .section-title {
-  margin-bottom: 0;
-  font-family: 'Times New Roman';
+    margin-bottom: 0;
+    margin-top: 50px;
+    font-family: 'Times New Roman';
+    /* animation for page fade in */
+    animation: fadeInAnimation ease 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
 }
 
-/* animation class for fade in */
-.fade-in-image {
-  animation: fadeIn 2s;
-  -webkit-animation: fadeIn 2s;
-  -moz-animation: fadeIn 2s;
-  -o-animation: fadeIn 2s;
-  -ms-animation: fadeIn 2s;
-}
-@keyframes fadeIn {
-  0% {opacity:0;}
-  100% {opacity:1;}
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
 }
 
-@-moz-keyframes fadeIn {
-  0% {opacity:0;}
-  100% {opacity:1;}
-}
-
-@-webkit-keyframes fadeIn {
-  0% {opacity:0;}
-  100% {opacity:1;}
-}
-
-@-o-keyframes fadeIn {
-  0% {opacity:0;}
-  100% {opacity:1;}
-}
-
-@-ms-keyframes fadeIn {
-  0% {opacity:0;}
-  100% {opacity:1;}
-}
 
 /* animation for typing letters */
+
 .type {
-  border-right: solid 3px rgba(2, 2, 2, 0);
-  white-space: nowrap;
-  overflow: hidden;    
-  font-family: Roboto Mono, monospace;  
-  color: rgb(0, 0, 0);
-  font-weight: 400;
-  text-align: center;
+    border-right: solid 3px rgba(2, 2, 2, 0);
+    white-space: nowrap;
+    overflow: hidden;
+    font-family: Roboto Mono, monospace;
+    color: rgb(0, 0, 0);
+    font-weight: 400;
+    margin: 0 auto;
 }
 
+
 /* Animation */
+
 .type {
-  animation: animated-text 3s steps(22,end) 1s 1 normal both,
-             animated-cursor 800ms steps(22,end) infinite;
+    animation: animated-text 3s steps(22, end) 1s 1 normal both, animated-cursor 800ms steps(22, end) 1s infinite;
 }
+
 
 /* text animation */
 
-@keyframes animated-text{
-  from{width: 0;}
-  to{width: 210px;}
+@keyframes animated-text {
+    from {
+        width: 0;
+    }
+    to {
+        width: 210px;
+    }
 }
+
 
 /* cursor animations */
 
-@keyframes animated-cursor{
-  from{border-right-color: rgb(0, 0, 0);}
-  to{border-right-color: transparent;}
+@keyframes animated-cursor {
+    from {
+        border-right-color: rgb(0, 0, 0);
+    }
+    to {
+        border-right-color: transparent;
+    }
 }
