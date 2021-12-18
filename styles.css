@@ -1,9 +1,13 @@
 body {
     color: rgb(0, 0, 0);
     display: block;
-    font-family: -apple-system, BlinkMacSystemFont, 'Roboto', 'Helvetica Now Display', Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", 'Roboto Mono', 'Times New Roman', Times, serif, 'Adobe Caslon Pro';
+    font-family: -apple-system, BlinkMacSystemFont, 'Roboto', 'Helvetica Now Display',
+     Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol",  'Times New Roman', Times, serif, ;
     background-color: #ffffff;
 }
+
+@font-face { font-family: 'Roboto Mono'; src: url('RobotoMono-Regular.OTF'); } 
+@font-face { font-family: 'Adobe Caslon Pro'; src: url('ACaslonPro-Regular.OTF'); } 
 
 #nametitle {
     max-width: 720px;
