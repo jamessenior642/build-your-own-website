@@ -9,7 +9,7 @@ body {
 .heading{
     animation: fadeInAnimation ease 1s;
     animation-iteration-count: 1;
-    animation-fill-mode: forwards;
+    animation-fill-mode: forwards; 
 }
 
 #container {
@@ -23,7 +23,7 @@ body {
   display: flex;
   justify-content: space-between;
   gap: 1em;
-  align-items: center;
+  align-items: center; comm
 }
 
 @media screen and (max-width: 600px) {
