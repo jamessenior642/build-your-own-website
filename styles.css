@@ -198,6 +198,18 @@ a:active {
     animation-fill-mode: forwards;
 }
 
+.bottom-text {
+    text-align: center;
+    margin-bottom: 0;
+    margin-top: 0;
+    font-family: 'Roboto Mono';
+    color: rgba(0, 0, 0, 0.507);
+    /* animation for page fade in */
+    animation: fadeInAnimation ease 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
 
 /* animation for typing letters */
 .type {
