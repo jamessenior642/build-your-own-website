@@ -1,7 +1,7 @@
 body {
     color: rgb(0, 0, 0);
     display: block;
-    font-family: -apple-system, BlinkMacSystemFont, 'Roboto', 'Helvetica Now Display',
+    font-family: -apple-system, BlinkMacSystemFont, 'Roboto Mono', 'Merriweather', 'Roboto', 'Helvetica Now Display',
      Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol",  'Times New Roman', Times, serif, ;
     background-color: #ffffff;
     
@@ -150,22 +150,24 @@ a:active {
 
 .project-description {
     margin: 0;
+    font-family: 'Roboto Mono';
     /* animation for page fade in */
     animation: fadeInAnimation ease 3s;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
-    font-family: 'Roboto Mono';
+   
 }
 
 
 .project-tools {
     margin-top: 2px;
     font-weight: 350;
+    font-family: 'Roboto Mono';
     /* animation for page fade in */
     animation: fadeInAnimation ease 3s;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
-    font-family: 'Roboto Mono';
+    
 }
 
 
@@ -175,11 +177,12 @@ a:active {
     margin-left: 4px;
     font-weight: 400;
     font-size: 16px;
+    font-family: 'Roboto Mono';
     /* animation for page fade in */
     animation: fadeInAnimation ease 3s;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
-    font-family: 'Roboto Mono';
+    
 }
 
 
