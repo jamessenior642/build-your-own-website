@@ -130,6 +130,7 @@ a:active {
 
 .project-container {
     margin-bottom: 1.6em;
+    font-family: 'Roboto Mono';
     /* animation for page fade in */
     animation: fadeInAnimation ease 2s;
     animation-iteration-count: 1;
