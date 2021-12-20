@@ -293,8 +293,10 @@ a:active {
 	position: absolute; /* 2 */
 }
 
-/* scroll behavior check */
-@media screen and (prefers-reduced-motion: reduce) {
-	html {
-		scroll-behavior: auto;
-	}}
+/* @media screen and (max-width: 481px){
+
+
+    write your CSS-Code here
+  
+  
+  } */
