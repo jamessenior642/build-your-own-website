@@ -39,7 +39,7 @@ body {
 
 .two-columntoc {
   display: flex;
-  justify-content: space-between;
+  justify-content:space-between;
   gap: 1em;
   align-items: center;
   background-color: #ffffff;
@@ -78,7 +78,6 @@ hr{
 .links1 {
     display: flex;
     gap: 1.5em;
-    justify-content: center;
     /* animation for page fade in */
     animation: fadeInAnimation ease 3s;
     animation-iteration-count: 1;
@@ -88,7 +87,6 @@ hr{
 .links2 {
     display: flex;
     gap: 1em;
-    justify-content: center;
     /* animation for page fade in */
     animation: fadeInAnimation ease 3s;
     animation-iteration-count: 1;
