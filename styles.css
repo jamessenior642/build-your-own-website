@@ -1,6 +1,5 @@
 body {
     color: rgb(0, 0, 0);
-    display: block;
     font-family: -apple-system, BlinkMacSystemFont, 'Roboto Mono', 'Merriweather', 'Roboto', 'Helvetica Now Display',
      Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol",  'Times New Roman', Times, serif, ;
     background-color: #ffffff;
@@ -19,10 +18,11 @@ hr{
     animation-fill-mode: forwards; 
 }
 
-#container {
+.container {
     max-width: 720px;
     margin: auto;
     padding: 2em;
+    
 }
 
 
@@ -43,17 +43,37 @@ hr{
   }
 } */
 
-.tableofcontents {
-    text-align: center;
-    align-items: center;
-    display: block;
-    justify-content: center;
+.sticky {
+	background-color: #ffffff;
+	position: sticky;
+	top: 0;
     font-family: 'Roboto Mono';
     margin-bottom: 50px;
+    gap: 2em;
+    text-align: center;
     /* animation for page fade in */
     animation: fadeInAnimation ease 3s;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
+    z-index: 2;
+}
+
+.tableofcontents {
+    background-color: #ffffff;
+    z-index: 3;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    font-family: 'Roboto Mono';
+    position: sticky;
+	top: 0;
+    margin-bottom: 50px;
+    gap: 2em;
+    /* animation for page fade in */
+    animation: fadeInAnimation ease 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    
 }
 
 @keyframes fadeInAnimation {
@@ -245,4 +265,29 @@ a:active {
     to {
         border-right-color: transparent;
     }
+}
+
+
+/**
+ * Display lists on a single line.
+ * @bugfix Prevent webkit from removing list semantics
+ * 1. Add a non-breaking space
+ * 2. Make sure it doesn't mess up the DOM flow
+ */
+ .list-inline {
+	list-style: none;
+	margin-left: -0.5em;
+	margin-right: -0.5em;
+	padding: 0;
+}
+
+.list-inline > li {
+	display: inline-block;
+	margin-left: 0.5em;
+	margin-right: 0.5em;
+}
+
+.list-inline > li:before {
+	content: "\200B"; /* 1 */
+	position: absolute; /* 2 */
 }
