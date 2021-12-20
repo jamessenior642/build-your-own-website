@@ -43,22 +43,9 @@ hr{
   }
 } */
 
-.sticky {
-	background-color: #ffffff;
-	position: sticky;
-	top: 0;
-    font-family: 'Roboto Mono';
-    margin-bottom: 50px;
-    gap: 2em;
-    text-align: center;
-    /* animation for page fade in */
-    animation: fadeInAnimation ease 3s;
-    animation-iteration-count: 1;
-    animation-fill-mode: forwards;
-    
-}
 
 .tableofcontents {
+    max-width: 720px;
     background-color: #ffffff;
     z-index: 3;
     position: -webkit-sticky;
@@ -68,7 +55,7 @@ hr{
     font-family: 'Roboto Mono';
     position: sticky;
 	top: 0;
-    margin-bottom: 50px;
+    margin-bottom: 25px;
     gap: 3em;
     /* animation for page fade in */
     animation: fadeInAnimation ease 3s;
@@ -137,6 +124,7 @@ a:active {
 }
 
 .links {
+    margin-top: 0;
     margin-bottom: 50px;
     display: flex;
     gap: 1em;
