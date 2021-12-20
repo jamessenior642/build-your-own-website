@@ -61,6 +61,7 @@ hr{
 .tableofcontents {
     background-color: #ffffff;
     z-index: 3;
+    position: -webkit-sticky;
     align-items: center;
     display: flex;
     justify-content: center;
