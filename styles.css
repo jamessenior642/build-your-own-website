@@ -60,7 +60,7 @@ hr{
 
 .tableofcontents {
     background-color: #ffffff;
-    /* z-index: 3; */
+    z-index: 3;
     position: -webkit-sticky;
     align-items: center;
     display: flex;
@@ -69,7 +69,7 @@ hr{
     position: sticky;
 	top: 0;
     margin-bottom: 50px;
-    gap: 2em;
+    gap: 3em;
     /* animation for page fade in */
     animation: fadeInAnimation ease 3s;
     animation-iteration-count: 1;
@@ -137,7 +137,6 @@ a:active {
 }
 
 .links {
-    margin-top: 1em;
     margin-bottom: 50px;
     display: flex;
     gap: 1em;
