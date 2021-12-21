@@ -315,6 +315,7 @@ a:active {
     top: 0; */
     border-bottom: black solid 1px;
     font-family: 'Roboto Mono';
+    background-color: white;
   }
 
 .navbar-nav {
