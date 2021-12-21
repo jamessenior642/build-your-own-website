@@ -93,6 +93,13 @@ hr{
     animation-fill-mode: forwards;
 }
 
+.links3 {
+    display: flex;
+    gap: 1em;
+    justify-content: right;
+    align-items: right;
+}
+
 .stickybar {
     max-width: 720px;
     z-index: 3;
@@ -138,7 +145,7 @@ a:active {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
+    width: 30%;
     margin-top: 25px;
     margin-bottom: 25px;
     border-radius: 2px;
@@ -269,30 +276,6 @@ a:active {
 }
 
 
-/**
- * Display lists on a single line.
- * @bugfix Prevent webkit from removing list semantics
- * 1. Add a non-breaking space
- * 2. Make sure it doesn't mess up the DOM flow
- */
- .list-inline {
-	list-style: none;
-	margin-left: -0.5em;
-	margin-right: -0.5em;
-	padding: 0;
-}
-
-.list-inline > li {
-	display: inline-block;
-	margin-left: 0.5em;
-	margin-right: 0.5em;
-}
-
-.list-inline > li:before {
-	content: "\200B"; /* 1 */
-	position: absolute; /* 2 */
-}
-
 /* @media screen and (max-width: 481px){
 
 
@@ -300,3 +283,52 @@ a:active {
   
   
   } */
+
+
+  /* Style the navigation menu */
+.topnav {
+    overflow: hidden;
+    background-color: rgb(255, 255, 255);
+    position: relative;
+    z-index: 3;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    font-family: 'Roboto Mono';
+  }
+  
+  /* Hide the links inside the navigation menu (except for logo/home) */
+  .topnav #myLinks {
+    display: none;
+    
+  }
+
+  
+  
+  /* Style navigation menu links */
+  .topnav a {
+    color: rgb(0, 0, 0);
+    padding-bottom: 14px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  /* Style the hamburger menu */
+  .topnav a.icon {
+    background: rgb(255, 255, 255);
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  
+  /* Add a grey background color on mouse-over */
+  .topnav a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Style the active link (or home/logo) */
+  .active {
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+  }

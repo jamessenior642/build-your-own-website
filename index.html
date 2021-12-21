@@ -21,7 +21,13 @@
 </head>
 
 <body>
+    <a name="top"></a>
+    <!-- Load an icon library to show a hamburger menu (bars) on small screens -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
     <div class="container">
+       
         <div class="heading">
             <div class="heading-text-content" style ="border-style:none;">
                 <h1 id="name" style="font-family:'Merriweather'; text-align:center; font-size:50px;">
@@ -37,11 +43,48 @@
 
         </div>
         <img class="photo" src=" sunimage.jpg " width="50% " />
-        
-    <div class="stickybar">
+         <!-- Top Navigation Menu -->
+<div class="topnav">
+    <a href="#top" class="active">home</a>
+    <!-- Navigation links (hidden by default) -->
+    <div id="myLinks">
+      <a href="#aboutme">
+          about me
+      </a>
+      <a href="#projects">
+          projects
+      </a>
+      <a href="#workhistory">
+          work history
+      </a>
+      <a href="#beats">
+          beats
+      </a>
+      <div class="links3">
+        <a href="mailto:senior.j@northeastern.edu " target="_blank">
+            <img src="email.svg"  width="24 " />
+        </a>
+        <a href="https://github.com/jamessenior642 " target="_blank">
+            <img src="github.svg "   width="24 " />
+        </a>
+        <a href="https://www.linkedin.com/in/james-senior-5b9a99205/ " target="_blank">
+            <img src="linkedin.svg "  width="24 " />
+        </a>
+        <a href="https://www.instagram.com/jamessenior__/ " target="_blank">
+            <img src="insta.jpg " width="24 " />
+        </a>
+        </div>
+    </div>
+    <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+      <i class="fa fa-bars"></i>
+    </a>
+    <hr id="aboutme" />
+  </div>
+    <!-- <div class="stickybar">
         <div class="two-columntoc">
             <div class="links1">
-                <a href="#name">
+                <a href="#top">
                     home
                 </a>
                 <a href="#aboutme">
@@ -73,7 +116,7 @@
             </div>
         </div>
         <hr id="aboutme" />
-    </div>
+    </div> -->
 
 
 
@@ -186,5 +229,17 @@
         <hr />
         <p class="bottom-text">Created and designed by James Senior</p>    
     </div>  
+
+    <script>
+        function myFunction() {
+          var x = document.getElementById("myLinks");
+          if (x.style.display === "block") {
+            x.style.display = "none";
+          } else {
+            x.style.display = "block";
+          }
+        }
+        </script>
+
 </body>
 </html>
