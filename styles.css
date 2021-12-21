@@ -282,6 +282,7 @@ a:active {
 
 .nnn {
     border-bottom: black solid 1px; 
+    border-top: white;
       z-index: 3;
     position: -webkit-sticky;
     position: sticky;
