@@ -68,6 +68,7 @@ body {
 hr{
     background-color: white;
     margin-top: 0;
+    margin-bottom:0;
     animation: fadeInAnimation ease 1s;
     animation-iteration-count: 1;
     animation-fill-mode: forwards; 
@@ -78,19 +79,13 @@ hr{
 .links1 {
     display: flex;
     gap: 1.5em;
-    /* animation for page fade in */
-    animation: fadeInAnimation ease 3s;
-    animation-iteration-count: 1;
-    animation-fill-mode: forwards;
+    
 }
 
 .links2 {
     display: flex;
     gap: 1em;
-    /* animation for page fade in */
-    animation: fadeInAnimation ease 3s;
-    animation-iteration-count: 1;
-    animation-fill-mode: forwards;
+    
 }
 
 .links3 {
@@ -145,7 +140,7 @@ a:active {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 30%;
+    width: 40%;
     margin-top: 25px;
     margin-bottom: 25px;
     border-radius: 2px;
@@ -169,10 +164,7 @@ a:active {
 .project-title {
     margin-bottom: 0;
     font-family: 'Merriweather';
-    /* animation for page fade in */
-    animation: fadeInAnimation ease 3s;
-    animation-iteration-count: 1;
-    animation-fill-mode: forwards;
+   
 }
 
 
@@ -180,11 +172,10 @@ a:active {
 .project-description {
     margin: 0;
     font-family: 'Roboto Mono';
-    /* animation for page fade in */
-    animation: fadeInAnimation ease 3s;
-    animation-iteration-count: 1;
-    animation-fill-mode: forwards;
-   
+   /* animation for page fade in */
+   animation: fadeInAnimation ease 3s;
+   animation-iteration-count: 1;
+   animation-fill-mode: forwards;
 }
 
 
@@ -192,10 +183,6 @@ a:active {
     margin-top: 2px;
     font-weight: 350;
     font-family: 'Roboto Mono';
-    /* animation for page fade in */
-    animation: fadeInAnimation ease 3s;
-    animation-iteration-count: 1;
-    animation-fill-mode: forwards;
     
 }
 
@@ -207,13 +194,8 @@ a:active {
     font-weight: 400;
     font-size: 16px;
     font-family: 'Roboto Mono';
-    /* animation for page fade in */
-    animation: fadeInAnimation ease 3s;
-    animation-iteration-count: 1;
-    animation-fill-mode: forwards;
     
 }
-
 
 
 .section-title {
@@ -295,15 +277,16 @@ a:active {
     position: sticky;
     top: 0;
     font-family: 'Roboto Mono';
+    /* animation for page fade in */
+    animation: fadeInAnimation ease 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
   }
   
   /* Hide the links inside the navigation menu (except for logo/home) */
   .topnav #myLinks {
     display: none;
-    
   }
-
-  
   
   /* Style navigation menu links */
   .topnav a {
