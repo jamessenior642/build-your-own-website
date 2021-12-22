@@ -64,7 +64,11 @@ body {
     animation-fill-mode: forwards;
 }
 
-@media screen and (max-width: 650px) {
+#drop{
+display:none;
+}
+
+@media screen and (max-width: 800px) {
   .two-column {
     flex-direction: column;
   }
@@ -92,6 +96,10 @@ body {
       #beatslink{
         display: none;
       }
+
+      #drop{
+        display:flex;
+        }
     
 }
 
@@ -134,17 +142,17 @@ a:visited {
     text-decoration: none;
 }
 
-/* a:hover {
-    color: rgb(0, 0, 0);
+a:hover {
+    color: rgb(92, 92, 92);
     background-color: transparent;
-    text-decoration: underline;
+    
 }
 
 a:active {
     color: rgb(0, 0, 0);
     background-color: transparent;
-    text-decoration: underline;
-} */
+   
+}
 
 .photo {
     display: block;
@@ -297,7 +305,7 @@ a:active {
     background-color: rgb(255, 255, 255);
     font-family: 'Roboto Mono';
     /* animation for page fade in */
-    animation: fadeInAnimation ease 3s;
+    animation: fadeInAnimation ease 2s;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
   }
