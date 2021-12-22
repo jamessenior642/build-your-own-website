@@ -272,27 +272,17 @@ a:active {
 
   /* Style the navigation menu */
   .navbar {
+    color:black;
     border-bottom: black solid 1px; 
     border-top: white;
     background-color: rgb(255, 255, 255);
     font-family: 'Roboto Mono';
-  }
-
-.navbar-nav {
-    gap: 2em;
-}
-
-.nnn {
-    border-bottom: black solid 1px; 
-    border-top: white;
-      z-index: 3;
-    position: -webkit-sticky;
-    position: sticky;
-    top: 0; 
-    
-    background-color: rgb(255, 255, 255);
     /* animation for page fade in */
     animation: fadeInAnimation ease 3s;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
-}
+  }
+
+/* .navbar-nav {
+    gap: 2em;
+} */
