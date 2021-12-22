@@ -64,7 +64,7 @@ body {
     animation-fill-mode: forwards;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 650px) {
   .two-column {
     flex-direction: column;
   }
@@ -76,7 +76,26 @@ body {
   #name2{
       display: none;
   }
+
+  #aboutlink{
+    display: none;
+  }
+
+    #projectlink{
+        display: none;
+    }
+
+    #worklink{
+        display: none;
+      }
+
+      #beatslink{
+        display: none;
+      }
+    
 }
+
+
 
 hr{
     margin-top: 0;
