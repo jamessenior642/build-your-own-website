@@ -192,7 +192,6 @@ a:active {
 
 
 .project-tools {
-    margin-top: 2px;
     font-weight: 350;
     font-family: 'Roboto Mono';
     
@@ -212,7 +211,7 @@ a:active {
 
 .section-title {
     margin-bottom: 0;
-    
+    margin-top: 50px;
     font-family: 'Merriweather';
     /* animation for page fade in */
     animation: fadeInAnimation ease 3s;
@@ -286,3 +285,30 @@ a:active {
 /* .navbar-nav {
     gap: 2em;
 } */
+
+.figure{
+    background-color: rgb(255, 255, 255);
+    margin-top:75px;
+    margin-bottom:75px;
+    margin-left:50px;
+    margin-right:50x;
+    
+}
+.figure-img{
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+    
+   
+}
+.figure-caption{
+    text-align: center;
+    color:black;
+}
+
+#projectcontainer{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+}
