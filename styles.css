@@ -285,10 +285,10 @@ a:active {
 
   /* Style the navigation menu */
   .navbar {
- 
     border-bottom: black solid 1px; 
     border-top: white;
     background-color: rgb(255, 255, 255);
+    font-family: 'Roboto Mono';
   }
 
 .navbar-nav {
@@ -302,7 +302,7 @@ a:active {
     position: -webkit-sticky;
     position: sticky;
     top: 0; 
-    font-family: 'Roboto Mono';
+    
     background-color: rgb(255, 255, 255);
     /* animation for page fade in */
     animation: fadeInAnimation ease 3s;
