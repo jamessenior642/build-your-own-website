@@ -282,9 +282,7 @@ a:active {
     animation-fill-mode: forwards;
   }
 
-/* .navbar-nav {
-    gap: 2em;
-} */
+
 
 .figure{
     background-color: rgb(255, 255, 255);
@@ -314,8 +312,11 @@ a:active {
    align-items: center;
    justify-content: center; */
    text-align: center;
-   align-items: center;
-   justify-content: center;
+    /* animation for page fade in */
+    animation: fadeInAnimation ease 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+  
 }
 
 p{
