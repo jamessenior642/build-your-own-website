@@ -6,23 +6,20 @@ body {
     
 }
 
-@keyframes fadeInAnimation {
-    0% {
-        opacity: 0;
-    }
-    100% {
-        opacity: 1;
-    }
-}
 
-@keyframes fadeOutAnimation {
-    0% {
-        opacity: 1;
-    }
-    100% {
-        opacity: 0;
-    }
-}
+  /* Style the navigation menu */
+  .navbar {
+    color:black;
+    border-bottom: black solid 1px; 
+    border-top: white;
+    background-color: rgb(255, 255, 255);
+    font-family: 'Roboto Mono';
+    /* animation for page fade in */
+    animation: fadeInAnimation ease 2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+  }
+
 
 .container {
     margin: auto;
@@ -35,6 +32,10 @@ body {
     animation: fadeInAnimation ease 1s;
     animation-iteration-count: 1;
     animation-fill-mode: forwards; 
+}
+
+p{
+    margin:5px;
 }
 
 .subheading {
@@ -96,12 +97,23 @@ hr{
    
 }
 
-.links3 {
+.links {
     display: flex;
-    gap: .5em;
+    gap: 1em;
     justify-content: center;
     align-items: center;
     text-align: center;
+margin-bottom: 100px;
+margin-top: 20px;
+animation: fadeInAnimation ease 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards; 
+}
+
+.links2 {
+    display: flex;
+    gap: 1em;
+    
 margin-bottom: 100px;
 margin-top: 20px;
 animation: fadeInAnimation ease 3s;
@@ -164,6 +176,7 @@ a:active {
 
 
 .project-container {
+    text-align: left;
     margin-bottom: 1.6em;
     font-family: 'Roboto Mono';
     /* animation for page fade in */
@@ -268,24 +281,28 @@ a:active {
     }
 }
 
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
 
-  /* Style the navigation menu */
-  .navbar {
-    color:black;
-    border-bottom: black solid 1px; 
-    border-top: white;
-    background-color: rgb(255, 255, 255);
-    font-family: 'Roboto Mono';
-    /* animation for page fade in */
-    animation: fadeInAnimation ease 2s;
-    animation-iteration-count: 1;
-    animation-fill-mode: forwards;
-  }
+@keyframes fadeOutAnimation {
+    0% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
 
 
 
 .figure{
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(126, 126, 126);
      max-width:400px;
      
     /* margin-top:50px;
@@ -302,25 +319,29 @@ a:active {
    
 }
 .figure-caption{
-    text-align: center;
+    
     color:black;
 }
+
 
 #projcont{
     /* text-align: center;
    display: grid;
    align-items: center;
    justify-content: center; */
-   text-align: center;
+  
     /* animation for page fade in */
     animation: fadeInAnimation ease 3s;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
-    align-items: center;
-   justify-content: center;
+   
   
 }
 
-p{
-    margin:5px;
+.card-img-top{
+    border: black solid 1px;
+}
+
+.card-header{
+    
 }

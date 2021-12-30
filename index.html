@@ -103,7 +103,7 @@
                 </p>
             </div>
             <img class="photo" src=" sunimage.jpg " />
-            <div class="links3">
+            <div class="links">
                 <a href="mailto:senior.j@northeastern.edu " target="_blank">
                     <img src="email.svg" width="24 " />
                 </a>
@@ -124,9 +124,9 @@
         <!-- about me section -->
         <hr id="sec1" />
         <div class="container">
-            <h2 id="about" class="section-title " style="text-align:center ">ABOUT ME</h2>
+            <h2 id="about" class="section-title">ABOUT ME</h2>
             <div class="two-column1">
-                <img class="rounded img-fluid" src=" mepic.jpg " width="30%" />
+                <!-- <img class="rounded img-fluid" src=" mepic.jpg " width="30%" /> -->
                 <section>
                     <p class="project-description " style="margin-top: 20px; margin-bottom: 50px; ">Hello there. My name
                         is James Senior.
@@ -143,129 +143,119 @@
 
         <!-- projects section -->
         <hr id="projects" />
-        <h2 class=" section-title " style="text-align: center;">PROJECTS</h2>
-        <div class="" id="projcont">
-            <div class="row justify-content-center">
-                <div class="col-auto">
-                    <figure class="figure">
-                        <img src="bridgit.jpeg" class="figure-img img-fluid rounded" alt="...">
-                        <figcaption class="figure-caption">
-                            <div class="container">
-                                <div class="project-container ">
-                                    <h3 class="project-title ">
-                                        Bridgit
-                                        <span class="project-date ">November 2021</span>
-                                    </h3>
-                                    <p class="project-description ">
-                                        Created a version of the game Bridgit.
-                                    </p>
-                                    <p class="project-tools ">
-                                        Java
-                                    </p>
-                                </div>
-                            </div>
-                        </figcaption>
-                    </figure>
-                </div>
-                <div class="col-auto">
-                    <figure class="figure">
-                        <img src="concentration.jpeg" class="figure-img img-fluid rounded" alt="...">
-                        <figcaption class="figure-caption">
-                            <div class="container">
-                                <div class="project-container ">
-                                    <h3 class="project-title ">
-                                        Concentration
-                                        <span class="project-date ">October 2021</span>
-                                    </h3>
-                                    <p class="project-description ">
-                                        Created a version of the card game Concentration.
-                                    </p>
-                                    <p class="project-tools ">
-                                        Java
-                                    </p>
-                                </div>
-                            </div>
-                        </figcaption>
-                    </figure>
-                </div>
-                <div class="col-auto">
-                    <figure class="figure">
-                        <img src="spaceinv.jpeg" class="figure-img img-fluid rounded" alt="...">
-                        <figcaption class="figure-caption ">
-                            <div class="container">
-                                <div class="project-container ">
-                                    <h3 class="project-title ">
-                                        Space Invaders
-                                        <span class="project-date ">October 2020</span>
-                                    </h3>
-                                    <p class="project-description ">
-                                        Created a version of Space Invaders.
-                                    </p>
-                                    <p class="project-tools ">
-                                        Java
-                                    </p>
-                                </div>
-                            </div>
-                        </figcaption>
-                    </figure>
-                </div>
-            </div>
-            <div class="row justify-content-center">
-                <div class="col-auto">
-                    <figure class="figure">
-                        <img src="frogger.jpeg" class="figure-img img-fluid rounded" alt="...">
-                        <figcaption class="figure-caption">
-                            <div class="container">
-                                <div class="project-container ">
-                                    <h3 class="project-title ">
-                                        Frogger
-                                        <span class="project-date ">October 2020</span>
-                                    </h3>
-                                    <p class="project-description ">
-                                        Created a version of Frogger.
-                                    </p>
-                                    <p class="project-tools ">
-                                        Racket ISL
-                                    </p>
-                                </div>
-                            </div>
-                        </figcaption>
-                    </figure>
-                </div>
-                <div class="col-auto">
-                    <figure class="figure">
-                        <img src="website.jpeg" class="figure-img img-fluid rounded" alt="...">
-                        <figcaption class="figure-caption">
+        <div class="container" id="projcont">
+            <h2 class=" section-title ">PROJECTS</h2>
+            <div class="row row-cols-1 row-cols-sm-3 g-4">
+                <div class="col">
+                    <div class="card h-80  border-secondary">
+                        <div class="card-header border-secondary"><img src="bridgit.jpeg"
+                             class="card-img-top" alt="..."></div>
+                        <div class="card-body">
                             <div class="project-container ">
-                                <div class="container">
-                                    <h3 class="project-title ">
-                                        This Website
-
-                                        <span class="project-date ">December 2021</span>
-                                    </h3>
-                                    <p class="project-description ">
-                                        Very meta of me.
-                                    </p>
-                                    <p class="project-tools " style="">
-                                        HTML and CSS
-                                    </p>
-                                </div>
+                                <h3 class="project-title ">
+                                    Bridgit
+                                    <span class="project-date ">November 2021</span>
+                                </h3>
+                                <p class="project-description ">
+                                    Created a version of the game Bridgit.
+                                </p>
+                                <p class="project-tools ">
+                                    Java
+                                </p>
                             </div>
-                        </figcaption>
-                    </figure>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="concentration.jpeg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <div class="project-container ">
+                                <h3 class="project-title ">
+                                    Concentration
+                                    <span class="project-date ">October 2021</span>
+                                </h3>
+                                <p class="project-description ">
+                                    Created a version of the card game Concentration.
+                                </p>
+                                <p class="project-tools ">
+                                    Java
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="spaceinv.jpeg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <div class="project-container ">
+                                <h3 class="project-title ">
+                                    Space Invaders
+                                    <span class="project-date ">October 2020</span>
+                                </h3>
+                                <p class="project-description ">
+                                    Created a version of Space Invaders.
+                                </p>
+                                <p class="project-tools ">
+                                    Java
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="frogger.jpeg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <div class="project-container ">
+                                <h3 class="project-title ">
+                                    Frogger
+                                    <span class="project-date ">October 2020</span>
+                                </h3>
+                                <p class="project-description ">
+                                    Created a version of Frogger.
+                                </p>
+                                <p class="project-tools ">
+                                    Racket ISL
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="website.jpeg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <div class="project-container ">
+
+                                <h3 class="project-title ">
+                                    This Website
+
+                                    <span class="project-date ">December 2021</span>
+                                </h3>
+                                <p class="project-description ">
+                                    Very meta of me.
+                                </p>
+                                <p class="project-tools " style="">
+                                    HTML and CSS
+                                </p>
+
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
         <section>
-
-
         </section>
-        <hr id="workhistory" />
 
-        <h2 class="section-title " style="text-align:center ">WORK HISTORY</h2>
+        <!-- work history section -->
+        <hr id="workhistory" />
         <section>
             <div class="container">
-                <div class="project-container " style="text-align:center ">
+                <h2 class="section-title ">WORK HISTORY</h2>
+                <div class="project-container ">
                     <h3 class="project-title ">
                         Urban Outfitters
                         <span class="project-date " style=" "> May - Present 2021</span>
@@ -278,7 +268,7 @@
                     <p class="project-tools " style="text-align:right ">
                     </p>
                 </div>
-                <div class="project-container " style="text-align:center ">
+                <div class="project-container ">
                     <h3 class="project-title ">
                         Burlington
                         <span class="project-date " style=" ">June 2020 - January 2021</span>
@@ -291,7 +281,7 @@
                     <p class="project-tools " style="text-align:right ">
                     </p>
                 </div>
-                <div class="project-container " style="text-align:center ">
+                <div class="project-container ">
                     <h3 class="project-title ">
                         Quontic Bank
                         <span class="project-date " style=" "> July - August 2019</span>
@@ -307,10 +297,18 @@
         </section>
         <hr id="beats" />
 
-
+        <!-- beats section -->
         <section>
             <div class="container">
-                <h2 class="section-title " style="text-align:center ">BEATS</h2>
+                <h2 class="section-title ">BEATS</h2>
+                <div class="links2">
+                    <a href="https://open.spotify.com/user/james_senior?si=f0cd6967398149d0" target="_blank">
+                        <img src="spotify2.svg " width="28 " />
+                    </a>
+                    <a href="https://soundcloud.com/james-senior-495564782" target="_blank">
+                        <img src="soundcloud.svg " width="30 " />
+                    </a>
+                </div>
                 <p class="project-description" style="margin-top:20px">My other love in life is and has been music. I
                     used to play
                     the trumpet, and now I make beats. Enjoy...
@@ -346,6 +344,8 @@
             </div>
         </section>
         <hr />
+        
+        <!-- bottom text -->
         <p class="bottom-text">Created and designed by James Senior</p>
     </div>
 
