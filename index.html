@@ -28,20 +28,6 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700;900&display=swap"
         rel="stylesheet">
-    <!-- for fade in on scroll-->
-    <!-- <script src="https://code.jquery.com/jquery-latest.js"></script>
-        <script type="text/javascript">
-            // hide .navbar first
-    $(".navbar").hide();
-    window.addEventListener("scroll", function() {
-           if (window.scrollY > 1100) {
-               $('.navbar').fadeIn();
-           }
-           else {
-               $('.navbar').fadeOut();
-           }
-       },false);
-               </script>  -->
     <title>James Senior</title>
 </head>
 
@@ -138,10 +124,10 @@
         <!-- about me section -->
         <hr id="sec1" />
         <div class="container">
+            <h2 id="about" class="section-title " style="text-align:center ">ABOUT ME</h2>
             <div class="two-column1">
                 <img class="rounded img-fluid" src=" mepic.jpg " width="30%" />
                 <section>
-                    <h2 id="about" class="section-title " style="text-align:center ">ABOUT ME</h2>
                     <p class="project-description " style="margin-top: 20px; margin-bottom: 50px; ">Hello there. My name
                         is James Senior.
                         I'm from Long Island, NY, and I was born on June 4<sup style="font-size:70%; ">th</sup>, 2002.
@@ -321,23 +307,47 @@
         </section>
         <hr id="beats" />
 
-        <h2 class="section-title ">BEATS</h2>
+
         <section>
-            <p class="project-description" style="margin-top:20px">My other love is and has been music. I used to play
-                the trumpet, and now I make beats. Enjoy...
-            <div class="project-container">
-                <h3 class="project-title">
-                    Mako
-                </h3>
+            <div class="container">
+                <h2 class="section-title " style="text-align:center ">BEATS</h2>
+                <p class="project-description" style="margin-top:20px">My other love in life is and has been music. I
+                    used to play
+                    the trumpet, and now I make beats. Enjoy...
+                </p>
+                <div class="project-container">
+                    <h3 class="project-title">
+                        Mako
+                    </h3>
+                    <audio controls>
+                        <source src="makobeat.wav" type="audio/wav">
+                    </audio>
+                    <p class="project-description" style="margin-top:20px">
+                        samples: September Rain by Makoto Matsushita
+                    </p>
+                    <p class="project-tools ">
+                        used: Ableton Live
+                    </p>
+                </div>
+                <div class="project-container">
+                    <h3 class="project-title">
+                        Softly
+                    </h3>
+                    <audio controls>
+                        <source src="softly.wav" type="audio/wav">
+                    </audio>
+                </div>
+                <p class="project-description" style="margin-top:20px">
+                    samples: Killing Me Softly With His Song by Roberta Flack
+                </p>
+                <p class="project-tools ">
+                    used: Ableton Live
+                </p>
+            </div>
         </section>
         <hr />
         <p class="bottom-text">Created and designed by James Senior</p>
     </div>
-
-    <script>
-
-    </script>
-
 
 
 </body>
