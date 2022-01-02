@@ -338,10 +338,18 @@ a:active {
   
 }
 
-.card-img-top{
+.card{
     border: black solid 1px;
+}
+.card-img-top{
+   
+    object-fit: cover;
 }
 
 .card-header{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-bottom: none;
     
 }
