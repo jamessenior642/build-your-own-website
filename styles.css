@@ -38,6 +38,7 @@ hr {
   animation-timing-function: linear;
   animation-iteration-count: infinite;
   animation-duration: 5s;
+  animation-delay: .5s;
   text-align: center;
 }
 @keyframes spin {
