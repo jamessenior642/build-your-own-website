@@ -363,4 +363,11 @@ audio {
   .card:hover{
       transform: none;
   }
+
+  .links {
+    
+    margin-bottom: 20px;
+    margin-top: 20px;
+    
+  }
 }
