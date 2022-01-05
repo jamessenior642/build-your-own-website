@@ -331,7 +331,7 @@ audio {
     flex-direction: column;
   }
   .photo {
-    width: 70%;
+    width: 65%;
     object-fit: cover;
   }
 
