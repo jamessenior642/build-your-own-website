@@ -105,7 +105,7 @@ font-weight:400;
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 40%;
+  width: 25%;
 
   border-radius: 2px;
   /* animation for page fade in */
@@ -135,7 +135,7 @@ section {
 .links2 {
   display: flex;
   gap: 1em;
-
+  margin-bottom: 1.6em;
   animation: fadeInAnimation ease 3s;
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
