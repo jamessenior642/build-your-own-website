@@ -14,6 +14,7 @@ body {
   background-color: rgb(255, 255, 255);
   font-family: "Roboto Mono";
   z-index: 100;
+  transition: top 0.3s; /* Transition effect when sliding down (and up) */
 }
 
 #drop {
@@ -86,10 +87,7 @@ hr {
 .subheading {
   font-size: 1.4em;
   font-weight: 400;
-  /* animation for page fade in */
-  animation: fadeInAnimation ease 3s;
-  animation-iteration-count: 1;
-  animation-fill-mode: forwards;
+  
 }
 
 #bullettitle{
@@ -105,14 +103,12 @@ font-weight:400;
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 25%;
-
+  width: 30%;
+  
   border-radius: 2px;
-  /* animation for page fade in */
-  animation: fadeInAnimation ease 3s;
-  animation-iteration-count: 1;
-  animation-fill-mode: forwards;
+  
 }
+
 
 section {
   margin-bottom: 75px;
@@ -125,20 +121,15 @@ section {
   justify-content: center;
   align-items: center;
   text-align: center;
-  margin-bottom: 40px;
-  margin-top: 40px;
-  animation: fadeInAnimation ease 3s;
-  animation-iteration-count: 1;
-  animation-fill-mode: forwards;
+  margin-bottom: 75px;
+  margin-top: 30px;
 }
 
 .links2 {
   display: flex;
   gap: 1em;
   margin-bottom: 1.6em;
-  animation: fadeInAnimation ease 3s;
-  animation-iteration-count: 1;
-  animation-fill-mode: forwards;
+  
 }
 
 /* link text behavior */
@@ -172,20 +163,14 @@ a:active {
   align-items: center;
 
   font-family: "Roboto Mono";
-  /* animation for page fade in */
-  animation: fadeInAnimation ease 3s;
-  animation-iteration-count: 1;
-  animation-fill-mode: forwards;
+  
 }
 
 .project-container {
   text-align: left;
   margin-bottom: 1.6em;
   font-family: "Roboto Mono";
-  /* animation for page fade in */
-  animation: fadeInAnimation ease 3s;
-  animation-iteration-count: 1;
-  animation-fill-mode: forwards;
+  
 }
 
 .project-title {
@@ -195,10 +180,6 @@ a:active {
 
 .project-description {
   font-family: "Roboto Mono";
-  /* animation for page fade in */
-  animation: fadeInAnimation ease 3s;
-  animation-iteration-count: 1;
-  animation-fill-mode: forwards;
 }
 
 .project-tools {
@@ -218,10 +199,6 @@ a:active {
   margin-top: 75px;
   margin-bottom: 75px;
   font-family: "Merriweather";
-  /* animation for page fade in */
-  animation: fadeInAnimation ease 3s;
-  animation-iteration-count: 1;
-  animation-fill-mode: forwards;
 }
 
 .bottom-text {
