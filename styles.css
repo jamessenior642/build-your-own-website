@@ -17,9 +17,12 @@ body {
   transition: top 0.3s; /* Transition effect when sliding down (and up) */
 }
 
+
+
 #drop {
   display: none;
 }
+
 #htc{
     margin-bottom:30px;
    overflow:hidden;
@@ -72,8 +75,10 @@ hr {
   }
 }
 
-.container {
-  margin: auto;
+
+
+#maincont {
+
   padding: 2em;
 }
 
@@ -85,7 +90,7 @@ hr {
 }
 
 .subheading {
-  font-size: 1.4em;
+  font-size: 1.3em;
   font-weight: 400;
   
 }
@@ -223,6 +228,7 @@ a:active {
 .card-img-top {
   object-fit: cover;
   
+  
  
 }
 
@@ -303,7 +309,7 @@ audio {
   }
 }
 
-@media screen and (max-width: 960px) {
+@media screen and (max-width: 1000px) {
   .two-column1 {
     flex-direction: column;
   }
