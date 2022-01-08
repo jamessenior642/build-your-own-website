@@ -29,6 +29,7 @@ body {
 }
 
 hr {
+  color:black;
   margin-top: 0;
   margin-bottom: 0;
   animation: fadeInAnimation ease 1s;
@@ -76,7 +77,12 @@ hr {
 }
 
 
-
+#navcont{
+  padding-top:0;
+  padding-bottom:0;
+  margin-top: 0;
+  margin-bottom:0;
+}
 #maincont {
 margin:auto;
   padding: 2em;
@@ -108,7 +114,7 @@ font-weight:400;
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 20%;
+  
   
   border-radius: 2px;
   
