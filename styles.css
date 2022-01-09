@@ -27,12 +27,11 @@ body {
 }
 
 hr {
-  color: white;
+  color: black;
+  size:.5px;
   margin-top: 0;
   margin-bottom: 0;
-  animation: fadeInAnimation ease 1s;
-  animation-iteration-count: 1;
-  animation-fill-mode: forwards;
+  opacity:100%
 }
 
 /* name title */
@@ -108,7 +107,7 @@ hr {
 }
 
 section {
-  
+  margin-bottom:4rem;
   font-family: "Roboto Mono";
 }
 
@@ -119,7 +118,7 @@ section {
   align-items: center;
   text-align: center;
   margin-top: 30px;
-  margin-bottom:5px;
+  margin-bottom:4rem;
 }
 
 
@@ -181,8 +180,8 @@ a:active {
 }
 
 .section-title {
-  margin-top: 3em;
-  margin-bottom: 2em;
+  margin-top: 4rem;
+  margin-bottom: 4rem;
   font-family: "Merriweather";
   font-weight: 700;
 }
