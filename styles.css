@@ -144,9 +144,6 @@ a:visited {
   text-decoration: none;
 }
 
-a:hover {
-}
-
 a:active {
   color: rgb(0, 0, 0);
   background-color: transparent;
@@ -163,7 +160,7 @@ a:active {
 
 .project-description {
   font-family: "Roboto Mono";
-  
+  margin-top: 0;
 }
 
 .project-tools {
