@@ -125,7 +125,8 @@ section {
 .links2 {
   display: flex;
   gap: 1em;
-  margin-bottom: 2em;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
   align-items:center;
   justify-content:center;
 }
