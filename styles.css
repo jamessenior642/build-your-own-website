@@ -22,7 +22,7 @@ body {
 }
 
 #htc {
-  margin-bottom: 30px;
+  margin-bottom: 25px;
   overflow: hidden;
 }
 
@@ -117,7 +117,7 @@ section {
   justify-content: center;
   align-items: center;
   text-align: center;
-  margin-top: 30px;
+  margin-top: 25px;
   margin-bottom:4rem;
 }
 
