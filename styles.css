@@ -10,11 +10,10 @@ body {
 .navbar {
   color: black;
   border-bottom: black solid 1px;
-  border-top: white;
-  background-color: rgb(255, 255, 255);
+  background-color: white;
   font-family: "Roboto Mono";
-  z-index: 100;
-  transition: top 0.3s; /* Transition effect when sliding down (and up) */
+
+  /* transition: top 0.3s; Transition effect when sliding down (and up) */
 }
 
 #drop {
@@ -28,10 +27,10 @@ body {
 
 hr {
   color: black;
-  size:.5px;
+  size: 0.5px;
   margin-top: 0;
   margin-bottom: 0;
-  opacity:100%
+  opacity: 100%;
 }
 
 /* name title */
@@ -107,7 +106,7 @@ hr {
 }
 
 section {
-  margin-bottom:4rem;
+  margin-bottom: 4rem;
   font-family: "Roboto Mono";
 }
 
@@ -118,17 +117,16 @@ section {
   align-items: center;
   text-align: center;
   margin-top: 25px;
-  margin-bottom:4rem;
+  margin-bottom: 4rem;
 }
-
 
 .links2 {
   display: flex;
   gap: 1em;
   margin-top: 2rem;
   margin-bottom: 2rem;
-  align-items:center;
-  justify-content:center;
+  align-items: center;
+  justify-content: center;
 }
 
 /* link text behavior */
@@ -183,7 +181,6 @@ a:active {
   font-family: "Merriweather";
   font-weight: 700;
 }
-
 
 /* cards */
 .card {
@@ -290,7 +287,7 @@ audio {
     display: none;
   }
 
-  #aboutlink {
+  /* #aboutlink {
     display: none;
   }
 
@@ -308,7 +305,7 @@ audio {
 
   #drop {
     display: flex;
-  }
+  } */
 
   .card:hover {
     transform: none;
