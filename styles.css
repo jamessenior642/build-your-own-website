@@ -15,9 +15,12 @@ body {
   /* transition: top 0.3s; Transition effect when sliding down (and up) */
 }
 
+#menubutton{
+  color:black;
+
+}
 .navbar-toggler{
- border:black;
-  
+
 }
 
 #htc {
