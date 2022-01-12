@@ -12,12 +12,12 @@ body {
   border-bottom: black solid 1px;
   background-color: white;
   font-family: "Roboto Mono";
-
   /* transition: top 0.3s; Transition effect when sliding down (and up) */
 }
 
-#drop {
-  display: none;
+.navbar-toggler{
+ border:black;
+  
 }
 
 #htc {
@@ -286,26 +286,6 @@ audio {
   #name2 {
     display: none;
   }
-
-  /* #aboutlink {
-    display: none;
-  }
-
-  #projectlink {
-    display: none;
-  }
-
-  #worklink {
-    display: none;
-  }
-
-  #beatslink {
-    display: none;
-  }
-
-  #drop {
-    display: flex;
-  } */
 
   .card:hover {
     transform: none;
