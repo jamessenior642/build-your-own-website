@@ -43,6 +43,7 @@ body {
 .subheading {
   font-size: 1.3em;
   font-weight: 400;
+  text-align:center;
 }
 
 .photo {
@@ -70,6 +71,15 @@ body {
   margin-bottom: 2rem;
   align-items: center;
   justify-content: center;
+}
+
+.links3 {
+  display: flex;
+  gap: 1em;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 1em;
 }
 
 hr {
@@ -120,7 +130,6 @@ hr {
 
 section {
   margin-bottom: 4rem;
-  font-family: "Roboto Mono";
 }
 
 .section-title {
@@ -141,7 +150,6 @@ section {
 
 .project-container {
   text-align: left;
-  font-family: "Roboto Mono";
 }
 
 .project-title {
@@ -215,9 +223,6 @@ a:visited {
   text-decoration: none;
 }
 
-a:hover {
-  text-decoration: underline;
-}
 
 /* animation for typing letters */
 .type {
