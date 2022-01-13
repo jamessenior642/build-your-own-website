@@ -1,8 +1,8 @@
 body {
   color: rgb(0, 0, 0);
-  font-family: -apple-system, BlinkMacSystemFont, "Roboto Mono", "Merriweather",
-    "Roboto", "Helvetica Now Display", Arial, sans-serif, "Apple Color Emoji",
-    "Segoe UI Emoji", "Segoe UI Symbol", "Times New Roman", Times, serif;
+  font-family: "Roboto Mono", "Merriweather", "Roboto", "Helvetica Now Display",
+    Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol",
+    "Times New Roman", Times, serif;
   background-color: #ffffff;
 }
 
@@ -11,21 +11,65 @@ body {
   color: black;
   border-bottom: black solid 1px;
   background-color: white;
-  font-family: "Roboto Mono";
   /* transition: top 0.3s; Transition effect when sliding down (and up) */
 }
 
-#menubutton{
-  color:black;
-
+#menubutton {
+  color: black;
 }
-.navbar-toggler{
+.navbar-toggler {
+  border-color: black;
+  border-width: 1px;
+  border-style: solid;
+}
 
+#maincont {
+  margin: auto;
+  padding: 2em;
 }
 
 #htc {
   margin-bottom: 25px;
   overflow: hidden;
+}
+
+.heading {
+  margin-top: 60px;
+  animation: fadeInAnimation ease 1s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+
+.subheading {
+  font-size: 1.3em;
+  font-weight: 400;
+}
+
+.photo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+  border-radius: 2px;
+}
+
+.links {
+  display: flex;
+  gap: 1em;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 25px;
+  margin-bottom: 4rem;
+}
+
+.links2 {
+  display: flex;
+  gap: 1em;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  align-items: center;
+  justify-content: center;
 }
 
 hr {
@@ -74,21 +118,16 @@ hr {
   }
 }
 
-#maincont {
-  margin: auto;
-  padding: 2em;
+section {
+  margin-bottom: 4rem;
+  font-family: "Roboto Mono";
 }
 
-.heading {
-  margin-top: 60px;
-  animation: fadeInAnimation ease 1s;
-  animation-iteration-count: 1;
-  animation-fill-mode: forwards;
-}
-
-.subheading {
-  font-size: 1.3em;
-  font-weight: 400;
+.section-title {
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+  font-family: "Merriweather";
+  font-weight: 700;
 }
 
 #bullettitle {
@@ -98,57 +137,6 @@ hr {
 #aboutbullets {
   margin-top: 0;
   font-weight: 400;
-}
-
-.photo {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-
-  border-radius: 2px;
-}
-
-section {
-  margin-bottom: 4rem;
-  font-family: "Roboto Mono";
-}
-
-.links {
-  display: flex;
-  gap: 0.8em;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  margin-top: 25px;
-  margin-bottom: 4rem;
-}
-
-.links2 {
-  display: flex;
-  gap: 1em;
-  margin-top: 2rem;
-  margin-bottom: 2rem;
-  align-items: center;
-  justify-content: center;
-}
-
-/* link text behavior */
-
-a:link {
-  color: rgb(0, 0, 0);
-  background-color: transparent;
-  text-decoration: none;
-}
-
-a:visited {
-  color: rgb(0, 0, 0);
-  background-color: transparent;
-  text-decoration: none;
-}
-
-a:active {
-  color: rgb(0, 0, 0);
-  background-color: transparent;
 }
 
 .project-container {
@@ -161,13 +149,12 @@ a:active {
 }
 
 .project-description {
-  font-family: "Roboto Mono";
   margin-top: 0;
 }
 
 .project-tools {
   font-weight: 350;
-  font-family: "Roboto Mono";
+
   margin-top: 0%;
 }
 
@@ -175,14 +162,6 @@ a:active {
   margin: 0;
   font-weight: 350;
   font-size: 16px;
-  font-family: "Roboto Mono";
-}
-
-.section-title {
-  margin-top: 4rem;
-  margin-bottom: 4rem;
-  font-family: "Merriweather";
-  font-weight: 700;
 }
 
 /* cards */
@@ -214,14 +193,30 @@ a:active {
 
 audio {
   width: 100%;
-  font-family: "Roboto Mono";
 }
 
 .bottom-text {
   text-align: center;
-  font-family: "Roboto Mono";
   color: rgb(0, 0, 0);
   margin-top: 2em;
+}
+
+/* link text behavior */
+
+a:link {
+  color: rgb(0, 0, 0);
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: rgb(0, 0, 0);
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
 }
 
 /* animation for typing letters */
@@ -281,6 +276,7 @@ audio {
   }
 }
 
+/* smaller/mobile screen widths */
 @media screen and (max-width: 1000px) {
   .subheading {
     font-size: 1em;
