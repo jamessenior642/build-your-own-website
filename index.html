@@ -37,7 +37,8 @@
     <nav id="navbar" class="navbar fixed-top navbar-expand-lg navbar-light">
         <div div id="navcont" class="container-xxl">
             <a class="navbar-brand" href="#" style="font-family:'Merriweather'">
-                <h3 id="name" style="font-family:'Merriweather'; text-align:center; font-size:25px; margin:0;">JS</h3>
+                <h3 class="spinningname" id="name"
+                    style="font-family:'Merriweather'; text-align:center; font-size:25px; margin:0;">JS</h3>
             </a>
             <button class="navbar-toggler " type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
@@ -437,6 +438,8 @@
         navLinks.forEach((l) => {
             l.addEventListener('click', () => { bsCollapse.toggle() })
         })
+        // const name = document.querySelector('.spinningname')
+        // name.addEventListener('click', () => { bsCollapse.toggle() })
     </script>
 
 </body>
