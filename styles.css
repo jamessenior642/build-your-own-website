@@ -172,6 +172,12 @@ section {
   font-size: 16px;
 }
 
+.worktitle {
+  margin: 0;
+  font-weight: 450;
+  font-size: 16px;
+}
+
 /* cards */
 .card {
   background-color: white;
