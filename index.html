@@ -485,16 +485,17 @@
             </a>
         </div> -->
     </div>
-    <!-- close navbar on click -->
+    <!-- close navbar on click for mobile -->
     <script>
+        const viewportWidth = window.innerWidth;
+        if (viewportWidth < 1000) {
         const navLinks = document.querySelectorAll('.nav-item')
         const menuToggle = document.getElementById('navbarSupportedContent')
         const bsCollapse = new bootstrap.Collapse(menuToggle, { toggle: false })
         navLinks.forEach((l) => {
             l.addEventListener('click', () => { bsCollapse.toggle() })
         })
-        // const name = document.querySelector('.spinningname')
-        // name.addEventListener('click', () => { bsCollapse.toggle() })
+    }
     </script>
 
 </body>
