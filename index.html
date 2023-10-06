@@ -5,174 +5,162 @@
 <html lang="en" scroll-behavior="smooth;">
 
 <head>
+    <!-- Meta Information -->
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+    <!-- Page Title -->
+    <title>James Senior</title>
+
+    <!-- Favicon -->
     <link rel="shortcut icon" type="image" href="pics/favicon1.png">
-    <!-- Latest compiled and minified CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <!-- Font Imports -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700;900&display=swap" rel="stylesheet">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <!-- Custom Stylesheet -->
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+
+    <!-- Icon Library -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- Bootstrap JS (Place at the bottom before closing body for better performance) -->
     <!-- Latest compiled JavaScript -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
         crossorigin="anonymous"></script>
-    <link rel="stylesheet" type="text/css" href="styles.css" />
-    <!-- Load an icon library to show a hamburger menu (bars) on small screens -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <!-- roboto mono-->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100;200;300;400;500;600;700&display=swap"
-        rel="stylesheet">
-    <!-- merriweather-->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700;900&display=swap"
-        rel="stylesheet">
-    <title>James Senior</title>
+    <!-- Consider moving this to just before the closing </body> tag -->
 </head>
 
+
 <body data-bs-spy="scroll" data-bs-target="#navbar">
-    <!-- navbar -->
-    <nav id="navbar" class="navbar fixed-top navbar-expand-lg navbar-light">
-        <div div id="navcont" class="container-xxl">
-            <a class="navbar-brand" href="#" style="font-family:'Merriweather'">
-                <h3 class="spinningname" id="name"
-                    style="font-family:'Merriweather'; text-align:center; font-size:25px; margin:0;">JS</h3>
+   <!-- navbar -->
+   <nav id="navbar" class="navbar fixed-top navbar-expand-lg navbar-light">
+    <div div id="navcont" class="container-xxl">
+        <a class="navbar-brand" href="#" style="font-family:'Merriweather'">
+            <h3 class="spinningname" id="name"
+                style="font-family:'Merriweather'; text-align:center; font-size:25px; margin:0;">JS</h3>
+        </a>
+        <button class="navbar-toggler " type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span id="menubutton" href="javascript:void(0);" class="icon">
+                <i class="fa fa-bars"></i>
+            </span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0" style="text-align:center;">
+                <li id="aboutlink" class="nav-item">
+                    <a class="nav-link" aria-current="page" href="#sec1">about</a>
+                </li>
+                <li id="projectlink" class="nav-item">
+                    <a class="nav-link" aria-current="page" href="#projects">projects</a>
+                </li>
+                <li id="worklink" class="nav-item">
+                    <a class="nav-link" aria-current="page" href="#workhistory">experience</a>
+                </li>
+                <li id="beatslink" class="nav-item">
+                    <a class="nav-link" aria-current="page" href="#beats">beats</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+
+
+    <!-- Home Section -->
+<section id="maincont" class="container-sm">
+    <!-- Heading & Description -->
+    <div class="heading">
+        <h1 style="font-family:'Merriweather'; text-align:center; font-size:50px;">James Senior</h1>
+        <p class="subheading">I'm a 4<sup>th</sup> year student at Northeastern University studying Computer Science.</p>
+        <p class="type" style="font-family:'Roboto Mono'; font-weight: 350;">Welcome to my website.</p>
+        
+        <!-- User Image -->
+        <img class="photo" width="232" src="pics/James_1 (1).jpg" alt="James Senior" onmouseover="this.src='pics/face.GIF'" onmouseout="this.src='pics/James_1 (1).jpg'" />
+        
+        <!-- Social Media Links -->
+        <div class="links">
+            <a href="mailto:senior.j@northeastern.edu" target="_blank">
+                <img src="logos/email.svg" width="28" alt="Email James Senior" />
             </a>
-            <button class="navbar-toggler " type="button" data-bs-toggle="collapse"
-                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                aria-label="Toggle navigation">
-                <span id="menubutton" href="javascript:void(0);" class="icon">
-                    <i class="fa fa-bars"></i>
-                </span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav ms-auto mb-2 mb-lg-0" style="text-align:center;">
-                    <li id="aboutlink" class="nav-item">
-                        <a class="nav-link" aria-current="page" href="#sec1">about</a>
-                    </li>
-                    <li id="projectlink" class="nav-item">
-                        <a class="nav-link" aria-current="page" href="#projects">projects</a>
-                    </li>
-                    <li id="worklink" class="nav-item">
-                        <a class="nav-link" aria-current="page" href="#workhistory">experience</a>
-                    </li>
-                    <li id="beatslink" class="nav-item">
-                        <a class="nav-link" aria-current="page" href="#beats">beats</a>
-                    </li>
-                </ul>
-            </div>
+            <a href="https://github.com/jamessenior642" target="_blank">
+                <img src="logos/github.svg" width="28" alt="James Senior on GitHub" />
+            </a>
+            <a href="https://www.linkedin.com/in/james-senior-5b9a99205/" target="_blank">
+                <img src="logos/linkedin.svg" width="28" alt="James Senior on LinkedIn" />
+            </a>
+            <a href="https://www.instagram.com/jamessenior__/" target="_blank">
+                <img src="logos/instagram.svg" width="28" alt="James Senior on Instagram" />
+            </a>
         </div>
-    </nav>
+    </div>
 
 
-    <!-- home section -->
-    <a name="top"></a>
-    <div id="maincont" class="container-sm">
-        <div class="heading">
-            <div id="htc" class="heading-text-content">
-                <h1 style="font-family:'Merriweather'; text-align:center; font-size:50px; ">James Senior</h1>
-                <p class="subheading">
-                    I'm a 3<sup style="font-size:70%; ">rd</sup> year student at Northeastern University studying
-                    Computer Science.
-                </p>
-                <p class="type" style="font-family:'Roboto Mono'; font-weight: 350;">
-                    Welcome to my website.
-                </p>
-            </div>
-            <img width="232" class="photo" src="pics/James_1 (1).jpg" onmouseover="this.src='pics/face.GIF'"
-                onmouseout="this.src='pics/James_1 (1).jpg'" />
-            <div class="links">
-                <a href="mailto:senior.j@northeastern.edu " target="_blank">
-                    <img src="logos/email.svg" width="28 " />
-                </a>
-                <a href="https://github.com/jamessenior642 " target="_blank">
-                    <img src="logos/github.svg " width="28 " />
-                </a>
-                <a href="https://www.linkedin.com/in/james-senior-5b9a99205/ " target="_blank">
-                    <img src="logos/linkedin.svg " width="28 " />
-                </a>
-                <a href="https://www.instagram.com/jamessenior__/ " target="_blank">
-                    <img src="logos/instagram.svg " width="28 " />
-                </a>
-            </div>
+
+        <!-- About Me Section -->
+<section id="about-section">
+    <hr id="sec1" />
+    <h2 class="section-title">ABOUT ME</h2>
+    <p class="project-description">Hello there. My name is James Senior (if you couldn't tell). I'm currently studying Computer Science at Northeastern University and am in my third year pursuing a Bachelor's of Science degree. Since I was young and would play around with Google, I've had a true love for computers and well-designed software. I also have a real love for math and problem-solving, which led me to the world of CS. I am interested and excited about becoming a software engineer in my career, specifically in the fields of software or app development.</p>
+    
+    <div id="aboutbullets" class="row row-cols-1 row-cols-sm-2 g-4">
+        <!-- Facts About James -->
+        <div class="col">
+            <h4>Some Facts:</h4>
+            <ul>
+                <li>Born: 2002</li>
+                <li>From: Northport, NY (Long Island)</li>
+                <li>Middle Name: Vincent</li>
+                <li>Graduating: 2024</li>
+                <li>Honors: Dean's List</li>
+            </ul>
         </div>
+        
+        <!-- Hobbies -->
+        <div class="col">
+            <h4>Some Hobbies of Mine:</h4>
+            <ul>
+                <li>Computers</li>
+                <li>Music (producing or listening)</li>
+                <li>Working out (lifting or running)</li>
+                <li>Movies (mainly watching)</li>
+                <li>Coffee (consuming)</li>
+            </ul>
+        </div>
+    </div>
+</section>
 
-
-
-        <!-- about me section -->
-        <hr id="sec1" />
-        <section>
-            <h2 id="about" class="section-title">ABOUT ME</h2>
-            <p class="project-description ">Hello there. My name
-                is James Senior (if you couldn't tell). I'm currently studying Computer Science at Northeastern University, and I'm in my
-                third year
-                pursuing a Bachelor's of Science
-                degree. Since I was young and would play around with Google, I've had a true love for
-                computers and well-designed software. I also have a
-                real love for math and problem solving, which led me to the world of CS. I
-                am interested and excited about becoming
-                a software engineer in my career, specifically in the fields of software or app development.
-            </p>
-            <div id="aboutbullets" class="row row-cols-1 row-cols-sm-2 g-4">
-                <div class="col">
-                    <p id="bullettitle">Some Facts:
-                    <ul>
-                        <li>
-                            Born: 2002
-                        </li>
-                        <li>From: Northport, NY (Long Island)</li>
-                        <li>Middle Name: Vincent</li>
-                        <li>Graduating: 2024</li>
-                        <li>Honors: Dean's List</li>
-                    </ul>
-                </div>
-
-                <div class="col">
-                    <p id="bullettitle">Some Hobbies of Mine:
-                    <ul>
-                        <li>Computers</li>
-                        <li>Music (producing or listening)</li>
-                        <li>Working out (lifting or running)</li>
-                        <li>Movies (mainly watching)</li>
-                        <li>Coffee (consuming) </li>
-                    </ul>
-                    </p>
-                </div>
-            </div>
-        </section>
-
-
-
-
-        <!-- projects section -->
         <hr id="projects" />
-        <section>
-            <h2 class=" section-title ">PROJECTS</h2>
-            <div class="row row-cols-1 row-cols-md-3 g-5">
-                <div class="col" >
-                    <div class="card h-100">
-                        <a href="https://github.com/jamessenior642/Freecell" target="_blank" class="stretched-link"></a>
-                        <div class="card-header"><img src="pics/freecell2.jpg" class="rounded card-img-top"></div>
-                        <div class="card-body">
-                            <div class="project-container ">
-                                <h3 class="project-title " >
-                                    Freecell
-                                </h3>
-                                <p class="project-date ">February 2022</p>
-                                <p class="project-description ">
-                                    Created a version of the card game Freecell. Used the Model-View-Controller design scheme.
-                                </p>
-                            </div>
-                        </div>
-                        <div class="card-footer bg-transparent ">
-                            <p class="project-tools ">
-                                Used: Java
-                            </p>
-                        </div>
-                    </div>
+        <!-- Projects Section -->
+<section id="projects-section">
+    <h2 class="section-title">PROJECTS</h2>
+    <div class="row row-cols-1 row-cols-md-3 g-5">
+        <!-- Freecell Project -->
+        <div class="col">
+            <div class="card h-100">
+                <a href="https://github.com/jamessenior642/Freecell" target="_blank" class="stretched-link"></a>
+                <div class="card-header">
+                    <img src="pics/freecell2.jpg" class="rounded card-img-top" alt="Freecell Project Image">
                 </div>
+                <div class="card-body">
+                    <h3 class="project-title">Freecell</h3>
+                    <p class="project-date">February 2022</p>
+                    <p class="project-description">Created a version of the card game Freecell. Used the Model-View-Controller design scheme.</p>
+                </div>
+                <div class="card-footer bg-transparent">
+                    <p class="project-tools">Used: Java</p>
+                </div>
+            </div>
+        </div>
                 <div class="col">
                     <div class="card h-100">
                         <a href="https://github.com/jamessenior642/Bridgit" target="_blank" class="stretched-link"></a>
@@ -300,7 +288,7 @@
                     </div>
                 </div>
             </div>
-        </section>
+    </section>
 
 
         <!-- work history section -->
@@ -347,47 +335,39 @@
 
         <!-- beats section -->
         <hr id="beats" />
-        <section>
-            <h2 class="section-title ">BEATS</h2>
-            <p class="project-description">My other love in life is, and has been, music. I
-                used to play
-                the trumpet in band, and now I make beats. I use Ableton Live to make them. Here are a few of my
-                favorites. Enjoy...
+        <section id="beats-section">
+            <hr />
+            <h2 class="section-title">BEATS</h2>
+            <p class="project-description">
+                My other love in life is, and has been, music. I used to play the trumpet in band, and now I make beats. I use Ableton Live to make them. Here are a few of my favorites. Enjoy...
             </p>
+        
             <div class="links2">
                 <a href="https://open.spotify.com/user/james_senior?si=f0cd6967398149d0" target="_blank">
-                    <img src="logos/spotify2.svg " width="28 " />
+                    <img src="logos/spotify2.svg" width="28" alt="Spotify Link" />
                 </a>
                 <a href="https://soundcloud.com/james-senior-495564782" target="_blank">
-                    <img src="logos/soundcloud.svg " width="32 " />
+                    <img src="logos/soundcloud.svg" width="32" alt="SoundCloud Link" />
                 </a>
             </div>
             <div class="row row-cols-1 row-cols-lg-2 g-5">
-                <div class="col">
-                    <div class="card h-100">
-                        <div class="card-header">
-                            <h3 class="project-title">
-                                Goodluv
-                            </h3>
-                        </div>
-                        <div class="card-body">
-                            <div class="project-container ">
-                                <audio controls>
-                                    <source src="songs/goodlove.wav" type="audio/wav">
-                                </audio>
-                                <p class="project-description ">
-                                    Samples: Good Love by Anita Baker
-                                </p>
-
-                            </div>
-                        </div>
-                        <div class="card-footer bg-transparent ">
-                            <p class="project-tools ">
-                                September 2022
-                            </p>
-                        </div>
-                    </div>
+                  <!-- Goodluv Beat -->
+        <div class="col">
+            <div class="card h-100">
+                <div class="card-header">
+                    <h3 class="project-title">Goodluv</h3>
                 </div>
+                <div class="card-body">
+                    <audio controls>
+                        <source src="songs/goodlove.wav" type="audio/wav">
+                    </audio>
+                    <p class="project-description">Samples: Good Love by Anita Baker</p>
+                </div>
+                <div class="card-footer bg-transparent">
+                    <p class="project-tools">September 2022</p>
+                </div>
+            </div>
+        </div>
                 <div class="col">
                     <div class="card h-100">
                         <div class="card-header">
@@ -470,20 +450,6 @@
         <!-- bottom text -->
         <hr style="color:black;" />
         <p class="bottom-text">Created and designed by James Senior © 2022</p>
-        <!-- <div class="links3">
-            <a href="mailto:senior.j@northeastern.edu " target="_blank">
-                <img src="logos/email.svg" width="28 " />
-            </a>
-            <a href="https://github.com/jamessenior642 " target="_blank">
-                <img src="logos/github.svg " width="28 " />
-            </a>
-            <a href="https://www.linkedin.com/in/james-senior-5b9a99205/ " target="_blank">
-                <img src="logos/linkedin.svg " width="28 " />
-            </a>
-            <a href="https://www.instagram.com/jamessenior__/ " target="_blank">
-                <img src="logos/instagram.svg " width="28 " />
-            </a>
-        </div> -->
     </div>
     <!-- close navbar on click for mobile -->
     <script>
