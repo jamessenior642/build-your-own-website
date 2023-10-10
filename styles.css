@@ -38,8 +38,14 @@ body {
 }
 
 .heading {
-  margin-top: 60px;
+  /* margin-top: 60px; */
   animation: fadeInAnimation ease var(--fade-in-duration) 1 forwards;
+  height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+     /* Adjust as needed for spacing */
 }
 
 .subheading {
