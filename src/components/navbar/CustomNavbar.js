@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Navbar, Nav, Container } from 'react-bootstrap';
-import { Link } from 'react-scroll';
+import { HashLink as Link } from 'react-router-hash-link';
 import './CustomNavbar.css'; // Ensure this file is imported
 
 const CustomNavbar = () => {
@@ -21,7 +21,7 @@ const CustomNavbar = () => {
             <Nav.Item className="nav-item">
               <Nav.Link
                 as={Link}
-                to="about"
+                to="/#about"
                 smooth={true}
                 duration={0}
                 className="nav-link"
@@ -35,7 +35,7 @@ const CustomNavbar = () => {
             <Nav.Item className="nav-item">
               <Nav.Link
                 as={Link}
-                to="projects"
+                to="/#projects"
                 smooth={true}
                 duration={0}
                 className="nav-link"
@@ -49,7 +49,7 @@ const CustomNavbar = () => {
             <Nav.Item className="nav-item">
               <Nav.Link
                 as={Link}
-                to="workhistory"
+                to="/#workhistory"
                 smooth={true}
                 duration={0}
                 className="nav-link"
@@ -63,7 +63,7 @@ const CustomNavbar = () => {
             <Nav.Item className="nav-item">
               <Nav.Link
                 as={Link}
-                to="music"
+                to="/#music"
                 smooth={true}
                 duration={0}
                 className="nav-link"
