@@ -1,0 +1,67 @@
+.link-icon {
+    margin: 0 10px; /* Adjust the spacing as needed */
+    transition: transform 0.3s, filter 0.3s;
+    color: inherit; /* Ensure icons inherit text color */
+  }
+  
+  .link-icon:hover {
+    transform: scale(1.2); /* Scale up the icon */
+    filter: brightness(2); /* Increase the brightness */
+  }
+  
+  .photo {
+    border-radius: 50%; /* Optional: Make the image round */
+  }
+
+  .subheading {
+    font-size: 1.3em;
+    /* font-weight: 400; */
+    max-width: 80%;
+
+  }
+
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  .fade-in {
+    animation: fadeIn .5s ease-in-out;
+  }
+
+
+  /* typing animation */
+  @keyframes animated-text {
+    from {
+      width: 0;
+    }
+    to {
+      width: 100%;
+    }
+  }
+  
+  @keyframes animated-cursor {
+    from {
+      border-right-color: var(--main-text-color);
+    }
+    to {
+      border-right-color: transparent;
+    }
+  }
+  
+  .type {
+    border-right: solid 3px transparent;
+    white-space: nowrap;
+    overflow: hidden;
+    font-family: "Roboto Mono", monospace;
+    font-weight: 400;
+    color: var(--main-text-color);
+    margin: 0 auto;
+    text-align: center;
+    animation: animated-text 3s steps(22, end) 1s 1 normal both, animated-cursor 800ms steps(22, end) 1s 5;
+  }
+  

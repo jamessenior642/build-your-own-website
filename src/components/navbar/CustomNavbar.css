@@ -1,0 +1,52 @@
+/* Center align nav links when collapsed */
+.navbar {
+    border-bottom: 1px solid black; /* Thin black border at the bottom */
+  }
+
+.navbar-collapse {
+    justify-content: center;
+  }
+  
+  .nav-item {
+    width: 100%;
+  }
+  
+  .nav-link {
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+  }
+
+  
+@keyframes spin {
+    from {
+      transform: rotateY(0deg);
+    }
+    to {
+      transform: rotateY(-360deg);
+    }
+  }
+  
+  @keyframes depth {
+    0%, 50%, 100% {
+      text-shadow: 0 0 black;
+    }
+    25% {
+      text-shadow: 1px 0 black, 2px 0 black, 3px 0 black, 4px 0 black, 5px 0 black, 6px 0 black, 7px 0 black, 8px 0 black, 9px 0 black, 10px 0 black;
+    }
+    75% {
+      text-shadow: -1px 0 black, -2px 0 black, -3px 0 black, -4px 0 black, -5px 0 black, -6px 0 black, -7px 0 black, -8px 0 black, -9px 0 black, -10px 0 black;
+    }
+  }
+  
+  .spinningname {
+    display: inline-block;
+    animation: spin 5s linear infinite, depth 5s linear infinite;
+  }
+  
+  
+  
+  .nav-link {
+    cursor: pointer;
+  }
+  
