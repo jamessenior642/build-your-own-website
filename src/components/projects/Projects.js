@@ -9,6 +9,7 @@ import froggerImage from '../../pics/froggerpic2.jpg';
 import websiteImage from '../../pics/websitepic3.jpg';
 import coveyImg from '../../pics/covey.png';
 import ytclone from '../../pics/ytclone2.jpeg'
+import jmarket from '../../pics/jmarket2.jpeg'
 
 const projectData = [
   {
@@ -24,6 +25,13 @@ const projectData = [
     imgSrc: coveyImg,
     link: 'https://github.com/neu-cs4530/spring24-project-team-101',
     tech: 'Typescript, React | April 2024',
+  },
+  {
+    title: 'Jungle Market Website',
+    description: 'Final project for WebDev.  Allows user to browse products, and leave reviews on them.',
+    imgSrc: jmarket,
+    link: 'https://github.com/jamessenior642/webdev-final-project',
+    tech: 'React, Node.js, MongoDB | April 2023',
   },
   {
     title: 'Freecell',
