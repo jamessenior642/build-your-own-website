@@ -8,8 +8,16 @@ import concentrationImage from '../../pics/concentrationpic2.jpg';
 import froggerImage from '../../pics/froggerpic2.jpg';
 import websiteImage from '../../pics/websitepic3.jpg';
 import coveyImg from '../../pics/covey.png';
+import ytclone from '../../pics/ytclone2.jpeg'
 
 const projectData = [
+  {
+    title: 'YouTube Clone',
+    description: 'Created a basic clone of YouTube, where the user can upload videos in their Google account.',
+    imgSrc: ytclone,
+    link: 'https://github.com/jamessenior642/youtube-clone',
+    tech: 'Typescript, Firebase, Google Cloud Run | September 2024',
+  },
   {
     title: 'Covey.town Drawing',
     description: 'Added a drawing feature to the online social platform Covey.town, as well as adding a multiplayer game.',
