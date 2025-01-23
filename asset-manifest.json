@@ -1,12 +1,13 @@
 {
   "files": {
     "main.css": "/static/css/main.c3338fbc.css",
-    "main.js": "/static/js/main.693ccc9b.js",
+    "main.js": "/static/js/main.05327f2e.js",
     "static/js/453.195b869a.chunk.js": "/static/js/453.195b869a.chunk.js",
     "static/media/goodlove.wav": "/static/media/goodlove.1db613355d8e4d7371a1.wav",
     "static/media/mamabeat2.wav": "/static/media/mamabeat2.1d833385dd0592c7a25a.wav",
     "static/media/makobeat.wav": "/static/media/makobeat.63de59427e6a58ad90d8.wav",
     "static/media/softly.wav": "/static/media/softly.43e0738081393ce37a88.wav",
+    "static/media/news.jpg": "/static/media/news.7791d9cb7e3f30e3822b.jpg",
     "static/media/jmarket2.jpeg": "/static/media/jmarket2.8303f84a7df61fe6bc92.jpeg",
     "static/media/ytclone2.jpeg": "/static/media/ytclone2.c843a28ccf8a445a7365.jpeg",
     "static/media/James_1 (1).jpg": "/static/media/James_1 (1).17a6fe7b1dcacb553191.jpg",
@@ -20,11 +21,11 @@
     "static/media/concentrationpic2.jpg": "/static/media/concentrationpic2.6984ed0542cac7c571fc.jpg",
     "index.html": "/index.html",
     "main.c3338fbc.css.map": "/static/css/main.c3338fbc.css.map",
-    "main.693ccc9b.js.map": "/static/js/main.693ccc9b.js.map",
+    "main.05327f2e.js.map": "/static/js/main.05327f2e.js.map",
     "453.195b869a.chunk.js.map": "/static/js/453.195b869a.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c3338fbc.css",
-    "static/js/main.693ccc9b.js"
+    "static/js/main.05327f2e.js"
   ]
 }
